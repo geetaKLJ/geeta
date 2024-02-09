@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Research Software</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">Resume</div>
+<div class="menu-item"><a href="index.html" >Home</a></div>
+<div class="menu-item"><a href="publication.html">Publications</a></div>
+<div class="menu-item"><a href="IITD-diary.html">IITD-diary</a></div>
+<div class="menu-item"><a href="work-Experience.html">Work Experience</a></div>
+<div class="menu-item"><a href="Technical-projects.html" class="current">Research Projects</a></div>
+<div class="menu-item"><a href="talks.html">Talks</a></div>
+<div class="menu-item"><a href="honors.html">Honors</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Research Projects</h1>
+</div>
+<ul>
+<li><p><b><a href="https://ieeexplore.ieee.org/abstract/document/9016445">IoT-PEN: An E2E Penetration Testing Framework for IoT</a> </b><br />
+With the horizon of 5 th generation wireless systems (5G), Internet of Things (IoT) is expected to take the major portion of computing. The lack of inbuilt security and security protocols in cheap IoT devices give privilege to an attacker to exploit these device's vulnerabilities and break into the target device. IoT network security was initially perceived from the perspective of a single, or a few attacks surface only. However, attacks like Mirai, Wannacry, Stuxnet, etc. show that a cyber attack often comprises of a series of attacks on vulnerabilities of victim devices to reach the target device. Penetration testing is generally used to identify the vulnerabilities/ possible attacks on traditional systems periodically. A timely fix of these vulnerabilities can avoid future attacks. Traditional penetration testing methods focus on isolated and manual testing of a host that fails to detect attacks involving multi-hosts and multi-stages. In this paper, we introduced first-of-its-kind, IoT-PEN, a Penetration Testing Framework for IoT. The framework consists of server-client architecture with "a system with resources" as server and all "IoT nodes" as clients. IoT-PEN is an end-to-end, scalable, flexible, and automatic penetration testing framework for IoT. IoT-PEN seeks to discover all possible ways an attacker can breach the target system using target-graphs. It constructs prerequisite and postconditions for each vulnerability using the National Vulnerability Database (NVD). We also demonstrated that even if an individual system is secure under some threat model, the attacker can use a kill-chain (a sequence of exploitation of multiple vulnerabilities on different hosts) to reach the target system.</p>
+</li>
+</ul>
+<ul>
+<li><p><b><a href="https://dl.acm.org/doi/10.1145/3372224.3418162">SmartPatch: A patch prioritization framework for SCADA chain in Smart grid </a> & <a href="https://ieeexplore.ieee.org/document/8869110">PatchRank: Ordering updates for SCADA systems </a></b><br />
+This paper is about modeling vulnerability patch prioritization in complex and interdependent systems such as the OperationalTechnology or Industrial Control Systems (ICSs).  In these environments, often patching is neither automated nor cost-effective,demanding large manual administrative efforts in a timely manner with as much less system downtime as possible.  The impact orrisk of a vulnerability could depend on the network characteristics, context that defines the vulnerability and circumstances thatled to it.  Moreover, not all vulnerabilities are always exploited by attackers; and not all vulnerabilities can be patched due to theresource-constrained such as people, infrastructure, tools and time available to patch every vulnerability in ICSs.  Also, ICSs havestrict requirements of system uptime and availability requirements of ICSs such as SCADA. These constraints place significantimportance on the patching sequence of networks and devices, which needs to be strategic and efficient.In this direction,  we present SmartPatch a three-step,  systematic patch prioritization method to address patch sequencing inan  interdependent  and  complex  network.   It  is  a  seamless  integration  of  system  modeling,  risk  management  and  game  theory.SmartPatch utilizes prior knowledge, learnings and experiences about the system dynamics and identifies an efficient and effectivedefensive strategy.  The framework’s output is a patch prioritization strategy that is cost-constrained and reduces the impact of thepossible attacks to a large extent.  We propose a security metric called the “Residual Impact Score” (RIS) to analyze the impactof all discovered vulnerabilities on the system.  We validate the applicability ofSmartPatch by considering the case study of an interdependent,  complex  SCADA  chain  in  the  smart  grid  system  using  the  IEEE  5-Bus  system.   Our  comparative  analysis  ofthe proposed approach with state-of-the-art approaches demonstrates thatSmartPatchreduces RIS by a faster rate i.e.  after eachiteration, the RIS value forSmartPatch is least.
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b><a href="https://ieeexplore.ieee.org/document/8869541">Assessment of SCADA system vulnerabilities </a></b><br />
+SCADA system is an essential component for automated control and monitoring in many of the Critical Infrastructures (CI). Cyber-attacks like Stuxnet, Aurora, Maroochy on SCADA systems give us clear insight about the damage a determined adversary can cause to any country's security, economy, and health-care systems. An in-depth analysis of these attacks can help in developing techniques to detect and prevent attacks. In this paper, we focus on the assessment of SCADA vulnerabilities from the widely used National Vulnerability Database (NVD) until May 2019. We analyzed the vulnerabilities based on severity, frequency, availability, integrity and confidentiality impact, and Common Weaknesses. The number of reported vulnerabilities are increasing yearly. Approximately 89% of the attacks are the network exploits severely impacting availability of these systems. About 19% of the weaknesses are due to buffer errors due to the use of insecure and legacy operating systems. We focus on finding the answer to four key questions that are required for developing new technologies for securing SCADA systems. We believe this is the first study of its kind which looks at correlating SCADA attacks with publicly available vulnerabilities. Our analysis can provide security researchers with useful insights into SCADA critical vulnerabilities and vulnerable components, which need attention. We also propose a domain-specific vulnerability scoring system for SCADA systems considering the interdependency of the various components.
+</p>
+</li>
+</ul>
+<ul>
+<li><p><b><a href="https://arxiv.org/abs/2001.02925">Architecture and Security of SCADA Systems: A Review.</a></b><br />
+Pipeline bursting, production lines shut down, frenzy traffic, trains confrontation, the nuclear reactor shut down, disrupted electricsupply, interrupted oxygen supply in ICU - these catastrophic events could result because of an erroneous SCADA system/IndustrialControl System (ICS). SCADA systems have become an essential part of automated control and monitoring of Critical Infrastruc-tures (CI). Modern SCADA systems have evolved from standalone systems into sophisticated, complex, open systems connectedto the Internet. This geographically distributed modern SCADA system is more vulnerable to threats and cyber attacks than tradi-tional SCADA. Traditional SCADA systems were less exposed to Internet threats as they operated on isolated networks. Over theyears, an increase in the number of cyber-attacks against the SCADA systems seeks security researchers’ attention towards theirsecurity. In this review paper, we first review the SCADA system architectures and comparative analysis of proposed/implementedcommunication protocols, followed by attacks on such systems to understand and highlight the evolving security needs for SCADAsystems. A short investigation of the current state of intrusion detection techniques in SCADA systems is done, followed by a briefstudy of testbeds for SCADA systems. The cloud and Internet of things (IoT) based SCADA systems are studied by analyzing mod-ern SCADA systems’ architecture. In the end, the review paper highlights the critical research problems that need to be resolved toclose the security gaps in SCADA systems.
+</p>
+</li>
+</ul>
+</li>
+</ul>
+</td>
+</tr>
+</table>
+</body>
+</html>
