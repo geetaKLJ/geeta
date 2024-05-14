@@ -8,7 +8,7 @@ if(file_exists($file_name)){
     $hit_count = file_get_contents($file_name);
 }
 
-// Increment hit count
+// Increment hit countk
 $hit_count++;
 file_put_contents($file_name, $hit_count);
 
