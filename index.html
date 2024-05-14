@@ -64,6 +64,14 @@ Contact: geeta[at] iitrpr [dot] ac [dot] in
 and <a href="https://www.cse.iitd.ernet.in/~sanjiva/">Prof. Sanjiva Prasad</a> at IIT Delhi on the project PrasavGraph: Android based Labour Monitoring. She worked as a R&D engineer in <a href ="http://www.samsung.com/in/aboutsamsung/samsungelectronics/india/rnd/"> Samsung India Pvt. Ltd. </a> from June 2013- July 2015 on project SPlanner. She received a bachelor's degree in Computer Engineering from <a href = "http://www.mnit.ac.in/">Malaviya National Institute of Technology, Jaipur, India</a> in 2013.</p>
 </td>
 </tr>
+  
 </table>
 </body>
+  document.addEventListener('DOMContentLoaded', function() {
+    var count = localStorage.getItem('hitCount') || 0;
+    count++;
+    localStorage.setItem('hitCount', count);
+    document.getElementById('hitCounter').innerText = count;
+});
+  <div>Website Hits: <span id="hitCounter">0</span></div>
 </html>
