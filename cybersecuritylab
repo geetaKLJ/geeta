@@ -21,40 +21,7 @@
 <div class="menu-item"><a href="honors.html" >Honors</a></div>
 <div class="menu-item"><a href="cybersecuritylab.html" class="current">Cybersecurity Lab</a></div>
 </td>
- <header>
-        <h1>Cybersecurity Lab</h1>
-        <p>Exploring the Frontiers of Digital Security</p>
-    </header>
-    <main>
-        <div class="photo">
-            <img src="https://geetaklj.github.io/geeta/images/Geeta.jpg" alt="Dr. Geeta">
-        </div>
-        <h2>Members</h2>
-        <h3>Lead</h3>
-        <ul>
-            <li>Dr. Geeta</li>
-        </ul>
-        <h3>Ph.D. Student</h3>
-        <ul>
-            <li>Ajeet Kumar</li>
-        </ul>
-        <h3>M.Tech Students</h3>
-        <ul>
-            <li>Savi Juneja</li>
-            <li>Shalini Kumari</li>
-        </ul>
-        <h2>Research Directions</h2>
-        <ul>
-            <li>Vulnerability management and patch prioritization</li>
-            <li>Security for Industrial IoT and Cyber-Physical Systems</li>
-            <li>Defensive mechanisms against adversarial machine learning</li>
-            <li>Attack-propagation analysis in digital forensics</li>
-            <li>Configuration vulnerability detection and mitigation</li>
-        </ul>
-    </main>
-    <footer>
-        <p>&copy; 2025 Cybersecurity Lab. All Rights Reserved.</p>
-    </footer>
+ 
 </tr>
 </table>
 </body>
