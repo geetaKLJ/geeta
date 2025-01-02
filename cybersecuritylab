@@ -5,7 +5,7 @@
 <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
 <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 <link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>CyberSecurity Lab</title>
+<title>Cybersecurity Lab</title>
 </head>
 <body>
 <table summary="Table for page layout." id="tlayout">
@@ -15,13 +15,37 @@
 <div class="menu-item"><a href="index.html">Home</a></div>
 <div class="menu-item"><a href="teaching.html">Teaching</a></div>
 <div class="menu-item"><a href="publication.html">Publications</a></div>
+<!-- <div class="menu-item"><a href="IITD-diary.html">IITD-diary</a></div> -->
 <div class="menu-item"><a href="work-Experience.html">Work Experience</a></div>
 <div class="menu-item"><a href="Technical-projects.html">Technical Projects</a></div>
 <div class="menu-item"><a href="talks.html" >Talks</a></div>
 <div class="menu-item"><a href="honors.html" >Honors</a></div>
-<div class="menu-item"><a href="cybersecuritylab.html" class="current">Cybersecurity Lab</a></div>
+<div class="menu-item"><a href="cybersecuritylab.html" class="current" >Cybersecurity Lab</a></div>
 </td>
- 
+<td id="layout-content">
+<div id="toptitle">
+<h1>Honors</h1>
+</div>
+<ul>
+<li><p>First place in the challenges of the 2020 edition of the Indian Dutch Cyber Security School organised by the Hague Centre for Strategic Studies (HCSS), Netherlands.</p>
+</li>
+<li><p>ACM Mobicom 2020 Student Research Competition grant for poster SmartPatch by ACM's SRC program.</p>
+</li>
+<li><p>IEEE IES-SYPA 2019 for research paper PatchRank : Ordering updates for SCADA.</p>
+</li>
+<li><p>Travel grant for Comsnets 2018.</p>
+</li>
+<li><p>Won Kaggle competition organised in Machine learning course in IIT Delhi 2018.
+ </p>
+</li>
+<li><p>Won 2nd prize in a technical event organised in NIT Jaipur among 300 entries.
+ </p>
+</li>
+<li><p>Secured second rank in senior secondary on district level.
+ </p>
+</li>
+</ul>
+</td>
 </tr>
 </table>
 </body>
